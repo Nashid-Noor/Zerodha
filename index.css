@@ -172,21 +172,6 @@ p {
 
 
 /* /////////////////////////////////////// */
-/* signup Form */
-/* /////////////////////////////////////// */
-.signUp-img-form{
-    display: flex;
-    justify-content: space-between;
-    gap:3rem;
-    flex: 0 1 auto;
-}
-
-.signUp-img-form img{
-    max-width: 100%;
-}
-
-
-/* /////////////////////////////////////// */
 /* Footer */
 /* /////////////////////////////////////// */
 .footer{
@@ -249,3 +234,66 @@ p {
     color: #666;
 }
 
+
+
+/* /////////////////////////////////////// */
+/* signup Form */
+/* /////////////////////////////////////// */
+.signUp-img-form{
+    display: flex;
+    justify-content: space-between;
+    gap:3rem;
+    padding: 10vh;
+   
+}
+
+.signUp-img-form img{
+    max-width: 57%;
+}
+
+form div{
+    position: relative;
+
+}
+form div span{
+    position: absolute;
+    top: 7px;
+    left: 1px;
+    padding: 4px;
+    /* margin-left: 2px; */
+    display: inline-block;
+    height: 38px;
+    width: 50px;
+    text-align: center;
+    font-size: 1.5rem;  
+    background-color: #fafafb;
+}
+input{
+    border: 1px solid #e3e3e3;
+    height: 4.5rem;
+    color: #4a4a4a;
+    width: 100%;
+    padding: 1rem;
+}
+input[type="text"]
+{
+    padding:10px 0 !important;
+    padding-left: 60px !important;
+}
+
+
+label{
+    position: absolute;
+    z-index: 10;
+    /* transform: translate(-50%,-50%); */
+    color: #9b9b9b;
+    top: 0;
+    background-color: #fff;
+    margin-left: 1rem;
+    line-height: 1;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transform: translateY(-5px);
+
+}
