@@ -297,6 +297,65 @@ p {
 } */
 
 /* /////////////////////////////////////// */
+/* About */
+/* /////////////////////////////////////// */
+.about-intro{
+    text-align: center;
+    width: 100%;
+    padding: 5rem 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.about-description{
+    padding: 8rem 2rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+}
+.about-members{
+    padding: 4rem 0 10rem 0;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+.about-members-founder{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.about-members-others{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.about-members-others div{
+    text-align: center;
+    padding: 2rem 3.5rem;
+    width: 30.66%;
+}
+.about-members-others img{
+    border-radius: 100%;
+    width: 100%;
+}
+.founder-img{
+    width: 39%;
+    text-align: center;
+}
+.founder-img img{
+    border-radius: 100%;
+    margin-bottom: 10px;
+    height: 295px; 
+}
+.founder-description{
+    width: 57%;
+}
+
+.founder-description p{
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+/* /////////////////////////////////////// */
 /* Footer */
 /* /////////////////////////////////////// */
 .footer{
