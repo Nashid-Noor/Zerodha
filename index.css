@@ -120,9 +120,10 @@ li div{
     width: 80%;
     align-items: center;
 }
-/* .hero img{
-    width: 80%;
-} */
+
+.first-img{
+    max-width: 80%;
+}
 
 .informationGrid{
     width: 110rem;
